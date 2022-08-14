@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch List</title>
+    <!---CDJNS FILE FOR FONTAWESOME ICONS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!----------------------------------------------------------------->
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="movies.css">
+</head>
+<style>
+     .img2{
+        background-image: url(../IMAGES/trending/25.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .navbar .logo a{
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    
+    </style>
+    </head>
+    <!--header starts-->
+    <body>
+    <!------------------------>
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <img src="../cinema.jpg"  width="50" height="45"> watch List</a>  
+       
+    </header> 
+<!--header starts-->
+<body>
+<!------------------------>
+
+<!------>
+<!--MOVIES SECTION-->
+<section>
+    <div class="img2">
+        <div class="inside-movie">
+            <div class="movie-content">
+              
+                <div class="movie-content2">
+                    <h4> Film Series</h4>
+                    <h1>
+                        Venom
+                    </h1>
+                    <h5>Movie</h5>
+                    <div class="imdb">
+                        <h6>6.6/10 <span>IMDb</span></h6>
+                    </div>
+                    <div class="genere">
+                        <span>Action</span>
+                        <span>Advanture</span>
+                        <span>Sci-Fi</span>
+
+
+
+                    </div>
+                    <p>
+                        A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.
+
+
+
+
+
+
+
+
+
+
+
+
+                    </p>
+                    <div class="btn">
+                       
+                        <a href=
+                        "
+                        https://www.imdb.com/video/vi1186773529/?playlistId=tt1270797&ref_=tt_pr_ov_vi"                                                                                            >Play Trailer</a>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------>
+<!--related-->
+
+<!------------------------->
+<script>
+    let menu = document.querySelector('#menu-btn');
+let navbar = document.querySelector('.navbar');
+
+menu.onclick = () =>{
+menu.classList.toggle('fa-times');
+navbar.classList.toggle('active');
+}
+
+document.querySelector('#login-btn').onclick = () =>{
+document.querySelector('.login-form-container').classList.toggle('active');
+}
+
+document.querySelector('#close-login-form').onclick = () =>{
+document.querySelector('.login-form-container').classList.remove('active');
+}
+
+</script>
+</body>
+</html>
+<!------------------------------->
+    

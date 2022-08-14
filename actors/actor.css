@@ -1,0 +1,109 @@
+
+.card {
+  box-shadow: 0 4px 8px 0 pi(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+     
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.sbutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: palevioletred;
+  text-align: center;
+  cursor: pointer;
+  width: 95%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: palevioletred;
+}
+
+.sbutton:hover, a:hover {
+  opacity: 0.7;
+}
+
+P{
+        color: black;
+        font-size: 18px;
+        font-family: "Times New Roman", Times, serif;
+
+
+
+}
+
+.div1{
+    background-color: paleturquoise;
+
+
+}
+
+
+/*malayalam*/
+.malayalam h1{
+    color: rgb(131, 130, 130);
+    font-size: 20px;
+    }
+    .line5
+    {
+        height: 3px;
+        background: palevioletred;
+        width: 6%;
+        margin-top: 4px;
+    }
+    .more{
+        float: right;
+        margin-right: 6px;
+        margin-top: -17px;
+    }
+    .more a{
+        padding: 10px 16px;
+        font-weight: bolder;
+        color: #fff;
+        font-size: 14px;
+    }
+    .inside-malayalam{
+        display: flex;
+    }
+    .malayalam-content img{
+        height: 280px;
+        border-radius: 10px;
+        transition: all 1000ms ease-in-out;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+    .malayalam-content  img:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    .malayalam-container{
+        height: 50vh;
+    }
+    .inside-malayalam{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+        gap: 10px;
+        margin-top: 20px;
+    }
+     h2{
+        font-size: 20px;
+        color: rgb(131, 130, 130);
+        text-align: center;
+    }
